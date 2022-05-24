@@ -8,7 +8,8 @@ export default function App() {
   const addContact = () => {
     if (contactsList.length === contacts.length) return;
     const randomContact = contacts[Math.floor(Math.random() * contacts.length)];
-    contactsList.includes(randomContact) ? addContact() : setContactsList([randomContact, ...contactsList]);
+    const contactMap = contactsList.map(elem => elem.id);
+    contactMap.includes(randomContact.id) ? addContact() : setContactsList([randomContact, ...contactsList]);
   }
 
   const sortContacts = (sortingBy) => {

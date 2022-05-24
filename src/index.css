@@ -5,66 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.App{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  align-content: center;
-  background-color: bisque;
-}
-table, table th, table td{
-  background-color: aliceblue;
-  border: 1px solid black;
-  padding: 10px;
-}
-.pictureContact{
-  margin:0;
-  padding: 0;
-}
-table th{
-  width:200px
-}
-.buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  padding: 20px 50px;
-}
-.btn{
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border-radius: 15px;
-}
-.greenBtn{
-  color: black;
-  margin-left: 10px;
-  background-color: #4CAF50; 
-}
-.greenBtn:hover{
-  color: black;
-
-  background-color: #378039;
-}
-.redBtn{
-  background-color: #f44336;
-}
-.redBtn:hover{
-  background-color: #9c2a21;
 }
